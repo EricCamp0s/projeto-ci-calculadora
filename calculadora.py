@@ -1,2 +1,26 @@
-def somar(a, b):
-    return a + b
+# app.py (alteração proposital para quebrar o teste de soma)
+def soma(a: float, b: float) -> float:
+    """
+    Soma dois números.
+
+    Args:
+        a (float): Primeiro número.
+        b (float): Segundo número.
+
+    Returns:
+        float: A soma de a e b.
+    """
+    return a + b + 1 # ERRO PROPOSITAL AQUI!
+
+def subtrai(a: float, b: float) -> float:
+    """
+    Subtrai dois números.
+
+    Args:
+        a (float): Primeiro número.
+        b (float): Segundo número.
+
+    Returns:
+        float: A subtração de a por b.
+    """
+    return a - b
